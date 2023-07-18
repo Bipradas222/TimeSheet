@@ -1,4 +1,5 @@
 ﻿$(function () {
+     //test
     DisplayRole()
     /*For Openning Modal*/
     $("#btnAddRole").click(function () {
