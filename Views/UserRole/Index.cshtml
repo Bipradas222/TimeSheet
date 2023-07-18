@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "TMS | User Role";
+}
+
+<div class="container-fluid d-flex align-items-center justify-content-between">
+    <h1>User Role</h1>
+    <button type="button" class="btn btn-primary btn-sm" id="btnAddRole">Add User Role</button>
+</div>
+<hr />
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">RoleID</th>
+                <th scope="col">Role Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tbluserRole">
+        </tbody>
+    </table>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="UserRoleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Role creation</h1>
+                <input type="hidden" id="hdRoleId" />
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">User Role</label>
+                    <input type="email" class="form-control" id="txtRoleName" placeholder="Role">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">User Role</label>
+                    <textarea class="form-control" id="txtRoleDescription" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnCloseModal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSaveRole">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/ProjectJS/UserRole.js"></script>

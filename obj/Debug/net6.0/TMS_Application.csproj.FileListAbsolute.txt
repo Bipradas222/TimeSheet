@@ -1,0 +1,906 @@
+D:\ASP\TMS_Application\bin\Debug\net6.0\appsettings.Development.json
+D:\ASP\TMS_Application\bin\Debug\net6.0\appsettings.json
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.staticwebassets.runtime.json
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.exe
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.deps.json
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.runtimeconfig.json
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\TMS_Application.pdb
+D:\ASP\TMS_Application\bin\Debug\net6.0\Humanizer.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\MessagePack.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.Build.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Common.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.AssemblyReference.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfoInputs.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfo.cs
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CoreCompileInputs.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cs
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.TMS_Application.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.TMS_Application.props
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TMS_Application.props
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TMS_Application.props
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets.build.json
+D:\ASP\TMS_Application\obj\Debug\net6.0\staticwebassets.development.json
+D:\ASP\TMS_Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP\TMS_Application\obj\Debug\net6.0\scopedcss\bundle\TMS_Application.styles.css
+D:\ASP\TMS_Application\obj\Debug\net6.0\scopedcss\projectbundle\TMS_Application.bundle.scp.css
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CopyComplete
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.dll
+D:\ASP\TMS_Application\obj\Debug\net6.0\refint\TMS_Application.dll
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.pdb
+D:\ASP\TMS_Application\obj\Debug\net6.0\TMS_Application.genruntimeconfig.cache
+D:\ASP\TMS_Application\obj\Debug\net6.0\ref\TMS_Application.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\appsettings.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.staticwebassets.runtime.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.exe
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.deps.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.runtimeconfig.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.pdb
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\MessagePack.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\af\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ar\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\az\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\bg\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\da\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\el\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fa\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\he\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\hr\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\hu\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\hy\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\id\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\is\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ku\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\lv\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\mt\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\nb\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\nl\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ro\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\sk\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\sl\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\sr\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\sv\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\uk\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\vi\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.AssemblyReference.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfoInputs.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfo.cs
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CoreCompileInputs.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cs
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.TMS_Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.TMS_Application.props
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TMS_Application.props
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TMS_Application.props
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\bundle\TMS_Application.styles.css
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\projectbundle\TMS_Application.bundle.scp.css
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CopyComplete
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\refint\TMS_Application.dll
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.pdb
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.genruntimeconfig.cache
+C:\Users\Bipro Guin Das\Desktop\TimeSheet\TMS_Application\obj\Debug\net6.0\ref\TMS_Application.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\appsettings.Development.json
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\appsettings.json
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.staticwebassets.runtime.json
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.exe
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Humanizer.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\MessagePack.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\MessagePack.Annotations.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Build.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Common.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Configuration.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Frameworks.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Packaging.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.ProjectModel.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Protocol.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\NuGet.Versioning.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Convention.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Hosting.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.Runtime.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Composition.TypedParts.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Drawing.Common.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Security.Permissions.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\af\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ar\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\az\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\bg\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\da\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\el\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fa\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\he\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\hr\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\hu\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\hy\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\id\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\is\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ku\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\lv\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\mt\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\nb\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\nl\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ro\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\sk\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\sl\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\sr\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\sv\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\uk\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\vi\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.AssemblyReference.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.GeneratedMSBuildEditorConfig.editorconfig
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfoInputs.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfo.cs
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CoreCompileInputs.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.MvcApplicationPartsAssemblyInfo.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cs
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.TMS_Application.Microsoft.AspNetCore.StaticWebAssets.props
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.TMS_Application.props
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TMS_Application.props
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TMS_Application.props
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.pack.json
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.build.json
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\staticwebassets.development.json
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\bundle\TMS_Application.styles.css
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\scopedcss\projectbundle\TMS_Application.bundle.scp.css
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CopyComplete
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.dll
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\refint\TMS_Application.dll
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.pdb
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.deps.json
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.runtimeconfig.json
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.dll
+\\BIPRADAS\TimeSheet\TMS_Application\bin\Debug\net6.0\TMS_Application.pdb
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\TMS_Application.genruntimeconfig.cache
+\\BIPRADAS\TimeSheet\TMS_Application\obj\Debug\net6.0\ref\TMS_Application.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\appsettings.Development.json
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\appsettings.json
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.staticwebassets.runtime.json
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.exe
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.deps.json
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.runtimeconfig.json
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\TMS_Application.pdb
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Humanizer.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\MessagePack.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.Build.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Common.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.AssemblyReference.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfoInputs.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.AssemblyInfo.cs
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CoreCompileInputs.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.MvcApplicationPartsAssemblyInfo.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.RazorAssemblyInfo.cs
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.TMS_Application.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.TMS_Application.props
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TMS_Application.props
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TMS_Application.props
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets.pack.json
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets.build.json
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\staticwebassets.development.json
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\scopedcss\bundle\TMS_Application.styles.css
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\scopedcss\projectbundle\TMS_Application.bundle.scp.css
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.csproj.CopyComplete
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.dll
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\refint\TMS_Application.dll
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.pdb
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\TMS_Application.genruntimeconfig.cache
+D:\MVC Project\TMS_Application\obj\Debug\net6.0\ref\TMS_Application.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MVC Project\TMS_Application\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

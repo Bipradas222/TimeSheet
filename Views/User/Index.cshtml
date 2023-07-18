@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid d-flex align-items-center justify-content-between">
+    <h1>User Role</h1>
+    <button type="button" class="btn btn-primary btn-sm" id="btnAddUser">Add User</button>
+</div>
+<hr />
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">UserID</th>
+                <th scope="col">User Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">User Role</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tbluserRole">
+        </tbody>
+    </table>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="UserModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">User creation</h1>
+                <input type="hidden" id="hdUserId" />
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">User Role</label>
+                    <select class="form-select" aria-label="User Role" id="ddlrole">
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="txtFirstName" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="txtLastName" placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Date Of Birth</label>
+                    <input type="email" class="form-control" id="txtDOB" placeholder="Date Of Birth">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Address</label>
+                    <input type="email" class="form-control" id="txtAddress" placeholder="Address">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="txtPhoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                </div>
+                @*<div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">User Role</label>
+                    <textarea class="form-control" id="txtRoleDescription" rows="3"></textarea>
+                </div>*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnCloseModal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSaveUser">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/ProjectJS/User.js"></script>
