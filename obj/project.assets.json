@@ -9898,11 +9898,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MVC Project\\TMS_Application\\TMS_Application.csproj",
+      "projectUniqueName": "D:\\Github\\TimeSheet\\TMS_Application.csproj",
       "projectName": "TMS_Application",
-      "projectPath": "D:\\MVC Project\\TMS_Application\\TMS_Application.csproj",
+      "projectPath": "D:\\Github\\TimeSheet\\TMS_Application.csproj",
       "packagesPath": "C:\\Users\\Bipro Guin Das\\.nuget\\packages\\",
-      "outputPath": "D:\\MVC Project\\TMS_Application\\obj\\",
+      "outputPath": "D:\\Github\\TimeSheet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

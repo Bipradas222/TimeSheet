@@ -18,7 +18,7 @@ namespace TMS_Application.Controllers
             return View();
         }
         [HttpPost]
-        [Route("api/TMS/AddUserRole")]
+        [Route("api/TMS/AddUser")]
         public JsonResult tmsuser(clsUserInfo user)
         {
             var con = this.configuration.GetConnectionString("TMSConn");
@@ -32,9 +32,11 @@ namespace TMS_Application.Controllers
                 sqlcmd.Parameters.AddWithValue("@LastName", user.LastName);
                 sqlcmd.Parameters.AddWithValue("@DateOfbirth", user.Birth_Date);
                 sqlcmd.Parameters.AddWithValue("@Address", user.Addresh);
-                sqlcmd.Parameters.AddWithValue("@First_Name", user.Email);
+                sqlcmd.Parameters.AddWithValue("@Email", user.Email);
                 sqlcmd.Parameters.AddWithValue("@PhoneNumber", user.Phone_Number);
                 sqlcmd.Parameters.AddWithValue("@RoleId", user.UserRole);
+                sqlcmd.Parameters.AddWithValue("@UserID", user.UserId);
+                sqlcmd.Parameters.AddWithValue("@CreatedBy", user.createdby);
                 result = (string)sqlcmd.ExecuteScalar();
                 sqlCon.Close();
             }

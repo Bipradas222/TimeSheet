@@ -22,17 +22,17 @@
         let val = validation()
         if (val == true) {
             let param = {
-                FirstName: ("#txtFirstName").val(),
-                LastName: ("#txtLastName").val(),
-                Birth_Date: ("#txtDOB").val(),
-                Addresh: ("#txtAddress").val(),
-                Phone_Number: ("#txtPhoneNumber").val(),
-                Email: ("#txtEmail").val(),
+                FirstName: $("#txtFirstName").val(),
+                LastName: $("#txtLastName").val(),
+                Birth_Date: $("#txtDOB").val(),
+                Addresh: $("#txtAddress").val(),
+                Phone_Number: $("#txtPhoneNumber").val(),
+                Email: $("#txtEmail").val(),
                 createdby: "Bipro",
-                UserRole: ("#ddlrole").val(),
-                UserId: ("#hdUserId").val()
+                UserRole: $("#ddlrole").val(),
+                UserId: $("#hdUserId").val()
             };
-            let url = "api/TMS/AddUserRole";
+            let url = "api/TMS/AddUser";
             $.ajax({
                 url: url,
                 type: 'Post',
@@ -64,5 +64,7 @@
         $("#txtDOB").datepicker();
     });
 })
+/*Github Testing*/
+/*Testing1*/
 
 
