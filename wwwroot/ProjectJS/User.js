@@ -1,4 +1,5 @@
 ﻿$(function () {
+    displayuser()
     /*For Opening Modal*/
     $("#btnAddUser").click(function () {
         $("#UserModal").modal('show')
@@ -63,8 +64,28 @@
     $(function () {
         $("#txtDOB").datepicker();
     });
+    function displayuser() {
+        $("#tbluser").empty();
+        $.get('api/TMS/DisplayUser', function (data) {
+            console.log(data)
+            var object = '';
+            $.map(data, function (x) {
+                object += '<tr>'
+                object += '<td>' + x.userId + '</td>';
+                object += '<td>' + x.firstName + ' ' + x.lastName + '</td>';
+                object += '<td>' + x.birth_Date + '</td>'
+                object += '<td>' + x.addresh + '</td>'
+                object += '<td>' + x.email + '</td>'
+                object += '<td>' + x.phone_Number + '</td>'
+                object += '<td>' + x.role_name + '</td>'
+                object += '<td><a id="btnEditRole" href="#" class="btn btn-primary btn-sm" data-id="' + x.roleId + '">Edit</a> || ';
+                object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.roleId + '" id="btnDelRole" >Delete</a></td>';
+                object += '</tr>'
+            })
+            $('#tbluser').append(object);
+        })
+    }
 })
-/*Github Testing*/
-/*Testing1*/
+
 
 

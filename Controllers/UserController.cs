@@ -68,5 +68,32 @@ namespace TMS_Application.Controllers
             //}
             return new JsonResult(list);
         }
+        [HttpGet]
+        [Route("api/TMS/DisplayUser")]
+        public JsonResult tmsuserdisplay()
+        {
+            string sqlcon = this.configuration.GetConnectionString("TMSConn");
+            List<clsUserInfo> list = new List<clsUserInfo>();
+            SqlConnection sqlConn = new SqlConnection( sqlcon);
+            DataTable dataTable = new DataTable();
+            sqlConn.Open();
+            SqlCommand sqlCmd = new SqlCommand("PRC_DisplayUser", sqlConn);
+            sqlCmd.CommandType = CommandType.StoredProcedure;
+            dataTable.Load(sqlCmd.ExecuteReader());
+            foreach(DataRow row in dataTable.Rows)
+            {
+                clsUserInfo obj = new clsUserInfo();
+                obj.UserId = (int)row["UserID"];
+                obj.FirstName = (string)row["First_Name"];
+                obj.LastName = (string)row["Last_Name"];
+                obj.Addresh = (string)row["Address"];
+                obj.Email = (string)row["Email"];
+                obj.Birth_Date = (string)row["Date_of_birth"];
+                obj.Phone_Number = (string)row["Phone_Number"];
+                obj.Role_name = (string)row["Role_name"];
+                list.Add(obj);
+            }
+            return new JsonResult(list);
+        }
     }
 }

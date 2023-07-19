@@ -18,5 +18,6 @@
         public string Birth_Date { get; set; } = "";
         public long UserRole { get; set; } = 0;
         public string createdby { get; set; } = "";
+        public string Role_name { get; set; } = "";
     }
 }
