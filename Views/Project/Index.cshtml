@@ -1,7 +1,65 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "TMS | Project";
 }
 
-<h1>Bani</h1>
-
+<div class="container-fluid d-flex align-items-center justify-content-between">
+    <h1>Project Management</h1>
+    <button type="button" class="btn btn-primary btn-sm" id="btnAddProject">Add New Project</button>
+</div>
+<hr />
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Project_Name</th>
+                <th scope="col">Owner</th>
+                <th scope="col">Status</th>
+                <th scope="col">Start_Date</th>
+                <th scope="col">End_Date</th>
+            </tr>
+        </thead>
+        <tbody id="tblProject">
+        </tbody>
+    </table>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Project" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Project Creation</h1>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Project Name</label>
+                    <input type="text" class="form-control" id="Project_Name" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Project Owner</label>
+                    <input type="text" class="form-control" id="Owner" placeholder="Owner">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Project Status</label>
+                    <input type="text" class="form-control" id="Status" placeholder="Status">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Start_Date</label>
+                    <input type="text" class="form-control" id="Start_Date" placeholder="Click">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">End_Date</label>
+                    <input type="text" class="form-control" id="End_Date" placeholder="Click">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnCloseModal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSaveProject">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*<div class="col-md-6">
+    <label>Priority</label>
+    <select id="ddlPriority" class="form-select form-select-sm"></select>
+</div>*@
+<script src="~/ProjectJS/Project.js"></script>
