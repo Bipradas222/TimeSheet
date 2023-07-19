@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wSLMeF/Yosw9Cj9DBFyK3HdR591swLheqjeShF4ie3c=",
+  "Hash": "hLOIgNEd5oQFL/r10r2Q8H+vlMKW/28LrfpMYscVPnM=",
   "Source": "TMS_Application",
   "BasePath": "_content/TMS_Application",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProjectCss\\Style.css"
+    },
+    {
+      "Identity": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\Project.js",
+      "SourceId": "TMS_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\TimeSheet\\wwwroot\\",
+      "BasePath": "_content/TMS_Application",
+      "RelativePath": "ProjectJS/Project.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProjectJS\\Project.js"
     },
     {
       "Identity": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\User.js",
