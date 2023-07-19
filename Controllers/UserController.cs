@@ -95,5 +95,12 @@ namespace TMS_Application.Controllers
             }
             return new JsonResult(list);
         }
+        //User alteration
+        [HttpGet]
+        [Route("api/TMS/DisplayUser")]
+        public JsonResult tmsUserEdit(int userid)
+        {
+
+        }
     }
 }
