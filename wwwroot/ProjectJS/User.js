@@ -5,7 +5,7 @@
     $("#btnAddUser").click(function () {
         $("#UserModal").modal('show')
         $("#ddlrole").empty()
-        modal_default()
+        modal_default(0)
         
     })
     /*For Closing Modal*/
@@ -87,8 +87,8 @@
         //console.log(param)
         $.get('api/TMS/EditUser', param, function (data) {
             //console.log(data);
-            modal_default()
-            $('#ddlrole option[value="' + data[0].userRole + '"]').attr('selected', 'selected');
+            modal_default(data[0].userRole)
+            $('#ddlrole option[value="' + data[0].userRole + '"]').prop('selected', true);
             $("#txtFirstName").val(data[0].firstName)
             $("#txtLastName").val(data[0].lastName)
             $("#txtDOB").val(data[0].birth_Date)
@@ -99,12 +99,24 @@
         })
         $("#UserModal").modal('show')
     })
-    function modal_default() {
+    function modal_default(id) {
+        $("#ddlrole").empty()
+        
         $.get('api/TMS/ddlUserRole', function (data) {
             var object = '';
-            object += '<option selected>User Role</option>';
+            object += '<option >User Role</option>';
             data.map(function (x) {
-                object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+                if (id == 0) {
+                    object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+                }
+                else {
+                    if (x.roleId == id) {
+                        object += '<option value=' + x.roleId + ' selected>' + x.roleName + '</option>';
+                    }
+                    else {
+                        object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+                    }
+                }
             })
             $("#ddlrole").append(object)
         })
