@@ -1,17 +1,12 @@
 ﻿$(function () {
     displayuser()
+    $("#txtDOB").datepicker();
     /*For Opening Modal*/
     $("#btnAddUser").click(function () {
         $("#UserModal").modal('show')
         $("#ddlrole").empty()
-        $.get('api/TMS/ddlUserRole', function (data) {
-            var object = '';
-            object += '<option selected>User Role</option>';
-            data.map(function (x) {
-                object += '<option value=' + x.roleId + '>' + x.roleName +'</option>';
-            })
-            $("#ddlrole").append(object)
-        })
+        modal_default()
+        
     })
     /*For Closing Modal*/
     $("#btnCloseModal").click(function () {
@@ -60,10 +55,7 @@
             return true;
         }
     }
-/*    date cloumn*/
-    $(function () {
-        $("#txtDOB").datepicker();
-    });
+    
     function displayuser() {
         $("#tbluser").empty();
         $.get('api/TMS/DisplayUser', function (data) {
@@ -78,11 +70,43 @@
                 object += '<td>' + x.email + '</td>'
                 object += '<td>' + x.phone_Number + '</td>'
                 object += '<td>' + x.role_name + '</td>'
-                object += '<td><a id="btnEditRole" href="#" class="btn btn-primary btn-sm" data-id="' + x.roleId + '">Edit</a> || ';
-                object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.roleId + '" id="btnDelRole" >Delete</a></td>';
+                object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
+                object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDelRole" >Delete</a></td>';
                 object += '</tr>'
             })
             $('#tbluser').append(object);
+        })
+    }
+    $("#tbluser").on('click', '#btnEdituser', function (data) {
+        let userid = parseInt($(this).attr('data-id'));
+        //console.log($(this).attr('data-id'));
+        $('#hdUserId').val(userid)
+        let param = {
+            'userid' : userid
+        }
+        //console.log(param)
+        $.get('api/TMS/EditUser', param, function (data) {
+            //console.log(data);
+            modal_default()
+            $('#ddlrole option[value="' + data[0].userRole + '"]').attr('selected', 'selected');
+            $("#txtFirstName").val(data[0].firstName)
+            $("#txtLastName").val(data[0].lastName)
+            $("#txtDOB").val(data[0].birth_Date)
+            $("#txtAddress").val(data[0].addresh)
+            $("#txtPhoneNumber").val(data[0].email)
+            $("#txtEmail").val(data[0].phone_Number)
+            $("#ddlrole").val(data[0].role_name)
+        })
+        $("#UserModal").modal('show')
+    })
+    function modal_default() {
+        $.get('api/TMS/ddlUserRole', function (data) {
+            var object = '';
+            object += '<option selected>User Role</option>';
+            data.map(function (x) {
+                object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+            })
+            $("#ddlrole").append(object)
         })
     }
 
