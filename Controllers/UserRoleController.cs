@@ -85,5 +85,22 @@ namespace TMS_Application.Controllers
             var result = list.Where(x => x.RoleId == roleid);
             return new JsonResult(result);
         }
+        [HttpPost]
+        [Route("api/TMS/DelUserRole")]
+        public JsonResult tmsroleDel(clsRoleInfo role)
+        {
+            var con = this.configuration.GetConnectionString("TMSConn");
+            var result = "";
+            using (SqlConnection sqlCon = new SqlConnection(con))
+            {
+                sqlCon.Open();
+                SqlCommand sqlcmd = new SqlCommand("PRC_deleteRole", sqlCon);
+                sqlcmd.CommandType = CommandType.StoredProcedure;
+                sqlcmd.Parameters.AddWithValue("@RoleID", role.RoleId);
+                result = (string)sqlcmd.ExecuteScalar();
+                sqlCon.Close();
+            }
+            return new JsonResult(result);
+        }
     }
 }

@@ -37,6 +37,7 @@
     function validation() {
         if ($("#txtRoleName").val() == "") {
             alert("Please enter role name")
+            $("#txtRoleName").focus()
             return false;
         }
         else if ($("#txtRoleDescription").val() == "") {
@@ -78,5 +79,21 @@
         })
         $("#UserRoleModal").modal('show')
     })
+    $("#tbluserRole").on('click', '#btnDelRole', function () {
+        let roleid = parseInt($(this).attr('data-id'));
+        //alert(roleid);
+        let url = "api/TMS/DelUserRole";
+        let param = {
+            'roleid': roleid
+        }
+        $.ajax({
+            url: url,
+            type: 'Post',
+            data: param,
+            success: function (msg) {
+                alert("Role Deleted");
+                window.location.href = 'UserRole'
+            }
+        })
+    })
 })
-/*test Github*/

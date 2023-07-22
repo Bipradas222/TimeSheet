@@ -16,6 +16,7 @@
     /*For save user*/
     $("#btnSaveUser").click(function () {
         let val = validation()
+        //alert(val)
         if (val == true) {
             let param = {
                 FirstName: $("#txtFirstName").val(),
@@ -29,31 +30,70 @@
                 UserId: $("#hdUserId").val()
             };
             let url = "api/TMS/AddUser";
-            $.ajax({
-                url: url,
-                type: 'Post',
-                data: param,
-                success: function (msg) {
-                    alert("User saved");
-                    window.location.href = 'User'
-                }
-            })
+            //alert($("#txtPhoneNumber").val().length)
+            //$.ajax({
+            //    url: url,
+            //    type: 'Post',
+            //    data: param,
+            //    success: function (msg) {
+            //        alert("User saved");
+            //        window.location.href = 'User'
+            //    }
+            //})
 
         }
 
     })
     function validation() {
+        var validation = false;
         if ($("#txtFirstName").val() == "") {
             alert("Please enter first name")
-            return false;
+            validation = false;
         }
         else if ($("#txtLastName").val() == "") {
             alert("Please give Last Name")
-            return false;
+            validation = false;
+        }
+        else if ($("#txtDOB").val() == "") {
+            alert("Please give Date of birth")
+            validation = false;
+        }
+        else if ($("#txtAddress").val() == "") {
+            alert("Please give Address")
+            validation = false;
+        }
+        else if ($("#txtPhoneNumber").val() == "") {
+            alert("Please give Phone number")
+            validation = false;
+        }
+        else if ($("#txtEmail").val() == "") {
+            alert("Please give Email")
+            validation = false;
+        }
+        else if ($("#ddlrole").val() == "") {
+            alert("Insert Role")
+            validation = false;
         }
         else {
-            return true;
+            if ($("#txtEmail").val().indexOf("@") != -1) {
+                //console.log(str2 + " found"); 
+                validation = true;
+            }
+            else {
+                alert('Email is not valid')
+                validation = false;
+            }
+            if (($("#txtPhoneNumber").val().length()) == 10) {
+                alert($("#txtPhoneNumber").val().length())
+                validation = true;
+            }
+            else {
+                alert('Please give valid Phone Number')
+                validation = false;
+            }
+            //return true;
         }
+        return validation;
     }
     
     function displayuser() {
@@ -71,7 +111,7 @@
                 object += '<td>' + x.phone_Number + '</td>'
                 object += '<td>' + x.role_name + '</td>'
                 object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
-                object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDelRole" >Delete</a></td>';
+                object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDeluser" >Delete</a></td>';
                 object += '</tr>'
             })
             $('#tbluser').append(object);
@@ -121,7 +161,23 @@
             $("#ddlrole").append(object)
         })
     }
-
+    $("#tbluser").on('click', '#btnDeluser', function () {
+        let userid = parseInt($(this).attr('data-id'));
+        //alert(userid);
+        let url = "api/TMS/DelUser";
+        let param = {
+            'UserId': userid
+        }
+        $.ajax({
+            url: url,
+            type: 'Post',
+            data: param,
+            success: function (msg) {
+                alert("User delete");
+                window.location.href = 'User'
+            }
+        })
+    })
 })
 
 

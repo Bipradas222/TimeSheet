@@ -125,5 +125,22 @@ namespace TMS_Application.Controllers
             var result = list.Where(x => x.UserId == userid);
             return new JsonResult(result);
         }
+        [HttpPost]
+        [Route("api/TMS/DelUser")]
+        public JsonResult tmsUserDel(clsUserInfo id)
+        {
+            var con = this.configuration.GetConnectionString("TMSConn");
+            var result = "";
+            using (SqlConnection sqlCon = new SqlConnection(con))
+            {
+                sqlCon.Open();
+                SqlCommand sqlcmd = new SqlCommand("PRC_userDel", sqlCon);
+                sqlcmd.CommandType = CommandType.StoredProcedure;
+                sqlcmd.Parameters.AddWithValue("@userid", id.UserId);
+                result = (string)sqlcmd.ExecuteScalar();
+                sqlCon.Close();
+            }
+            return new JsonResult(result);
+        }
     }
 }
