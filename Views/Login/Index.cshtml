@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="~/ProjectCss/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid vw-100 vh-100 bg-secondary d-flex justify-content-center">
+        <div class="w-100 h-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100 g-0 justify-content-center bg-secondary">
+                <div class="col-md-4 bg-white">
+                    <div class="rounded w-100 p-3 shadow">
+                        <div class="text-center mb-4">
+                            <h4 class="display-6" id="lblFormHeading">Login</h4>    @*Card Heading*@
+                            @*<a class="text-primary text-decoration-none" id="btnShowReg" style="cursor:pointer;">Sign up | </a>*@ @*Registration Link*@
+                            <a class="text-primary text-decoration-none d-none" id="btnShowLogin" style="cursor:pointer;">Sign in | </a>        @*Login Link*@
+                            <a class="text-primary text-decoration-none" style="cursor:pointer;">Forget Password</a>
+                        </div>
+                        <!-- Login form -->
+                        <form id="frmLogin">
+                            <div class="input-group has-validation mb-3 mt-5">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-envelope"></i></span>
+                                <input type="email" class="form-control" placeholder="User Email" id="txtEmail" value="" required>      @*User Email Textbox*@
+                            </div>
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="User Password" id="txtPassword" value="" required>     @*Password Textbox*@
+                            </div>
+                            <div class="form-group d-grid gap-2 mb-md-2 mt-5">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group d-grid gap-2 mb-md-2 mt-2">
+                                <input type="button" id="btnLogin" class="btn btn-primary mt-2" value="Login" />    @*Login Button*@
+                            </div>
+
+                        </form>
+                        <!-- End of login form -->
+                        <!-- Registration form -->
+                        <form id="frmReg" class="d-none">
+                            <input type="text" class="form-control form-control-sm my-2" id="txtEmpEmail" placeholder="Enter Your Email ID" autocomplete="off" />       @*User Email Textbox*@
+                            <input type="text" class="form-control form-control-sm my-2" id="txtEmpName" placeholder="Enter Your Name" autocomplete="off" />        @*User Name Textbox*@
+                            <input type="password" class="form-control form-control-sm my-2" id="txtEmpPass" placeholder="Enter A Password" autocomplete="off" />    @*Password Textbox*@
+                            <input type="button" class="btn btn-sm btn-primary w-100 mt-4 mb-3" id="btnEmpReg" value="Register" />          @*Registration Button*@
+                        </form>
+                        <!-- End of Registration form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/ProjectJS/Login.js"></script>

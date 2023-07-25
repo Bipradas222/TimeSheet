@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\ProjectCss\\Style.css"
     },
     {
+      "Id": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\Login.js",
+      "PackagePath": "staticwebassets\\ProjectJS\\Login.js"
+    },
+    {
       "Id": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\Project.js",
       "PackagePath": "staticwebassets\\ProjectJS\\Project.js"
     },

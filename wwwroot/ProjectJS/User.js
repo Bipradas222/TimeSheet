@@ -25,21 +25,21 @@
                 Addresh: $("#txtAddress").val(),
                 Phone_Number: $("#txtPhoneNumber").val(),
                 Email: $("#txtEmail").val(),
-                createdby: "Bipro",
+                createdby: $("#hduserEmail").val(),//"Bipro",
                 UserRole: $("#ddlrole").val(),
                 UserId: $("#hdUserId").val()
             };
             let url = "api/TMS/AddUser";
             //alert($("#txtPhoneNumber").val().length)
-            //$.ajax({
-            //    url: url,
-            //    type: 'Post',
-            //    data: param,
-            //    success: function (msg) {
-            //        alert("User saved");
-            //        window.location.href = 'User'
-            //    }
-            //})
+            $.ajax({
+                url: url,
+                type: 'Post',
+                data: param,
+                success: function (msg) {
+                    alert("User saved");
+                    window.location.href = 'User'
+                }
+            })
 
         }
 
@@ -83,14 +83,15 @@
                 alert('Email is not valid')
                 validation = false;
             }
-            if (($("#txtPhoneNumber").val().length()) == 10) {
-                alert($("#txtPhoneNumber").val().length())
-                validation = true;
-            }
-            else {
-                alert('Please give valid Phone Number')
-                validation = false;
-            }
+            validation= true;
+            //if (($("#txtPhoneNumber").val().length()) == 10) {
+            //    alert($("#txtPhoneNumber").val().length())
+            //    validation = true;
+            //}
+            //else {
+            //    alert('Please give valid Phone Number')
+            //    validation = false;
+            //}
             //return true;
         }
         return validation;

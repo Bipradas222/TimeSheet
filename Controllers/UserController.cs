@@ -122,6 +122,7 @@ namespace TMS_Application.Controllers
                 obj.UserRole = (int)row["RoleID"];
                 list.Add(obj);
             }
+            //var result = list.Where(x => x.UserId == userid).ToList().Count();
             var result = list.Where(x => x.UserId == userid);
             return new JsonResult(result);
         }
