@@ -1,4 +1,5 @@
 ﻿$(function () {
+    let tblRow=1
     displayuser()
     $("#txtDOB").datepicker();
     /*For Opening Modal*/
@@ -128,12 +129,27 @@
                 object += '<td>' + x.addresh + '</td>'
                 object += '<td>' + x.email + '</td>'
                 object += '<td>' + x.phone_Number + '</td>'
-                object += '<td>' + x.role_name + '</td>'
+                //object += '<td>' + x.role_name + '</td>'
+                object += '<td><select class="form-select ddlRoles" aria-label="User Role" id="ddltablerole" data-role=' + x.role_name +'>'
+                object +='</select></td>'
                 object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
                 object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDeluser" >Delete</a></td>';
                 object += '</tr>'
             })
+            //console.log(object)
             $('#tbluser').append(object);
+
+            //table dropdowns
+            $.get('api/TMS/ddlUserRole', function (data) {
+                $("#tbluser .ddlRoles").empty()
+                /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
+                var object = '';
+                object += '<option value=0>User Role</option>';
+                data.map(function (x) {
+                    object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+                })
+                $("#tbluser .ddlRoles").append(object)
+            })
         })
     }
     $("#tbluser").on('click', '#btnEdituser', function (data) {
@@ -197,6 +213,8 @@
             }
         })
     })
+
+    
 
 })
 
