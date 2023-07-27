@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using TMS_Application.Models;
 using System.Data;
+using System;
 
 
 namespace TMS_Application.Controllers
@@ -15,7 +16,17 @@ namespace TMS_Application.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            if (!String.IsNullOrEmpty(HttpContext.Session.GetString("email")) 
+                || !String.IsNullOrEmpty(HttpContext.Session.GetString("empno")) 
+                || !String.IsNullOrEmpty(HttpContext.Session.GetString("UserRole")) 
+                || !String.IsNullOrEmpty(HttpContext.Session.GetString("empname"))) 
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index", "Login");
+            }
         }
         [HttpPost]
         [Route("api/TMS/AddUser")]
@@ -23,6 +34,8 @@ namespace TMS_Application.Controllers
         {
             var con = this.configuration.GetConnectionString("TMSConn");
             var result = "";
+            Random _random = new Random();
+            int num = _random.Next();
             using (SqlConnection sqlCon = new SqlConnection(con))
             {
                 sqlCon.Open();
@@ -37,6 +50,7 @@ namespace TMS_Application.Controllers
                 sqlcmd.Parameters.AddWithValue("@RoleId", user.UserRole);
                 sqlcmd.Parameters.AddWithValue("@UserID", user.UserId);
                 sqlcmd.Parameters.AddWithValue("@CreatedBy", user.createdby);
+                sqlcmd.Parameters.AddWithValue("@Password", num);
                 result = (string)sqlcmd.ExecuteScalar();
                 sqlCon.Close();
             }
@@ -143,5 +157,30 @@ namespace TMS_Application.Controllers
             }
             return new JsonResult(result);
         }
+        [HttpPost]
+        [Route("api/TMS/UserPwChange")]
+        public JsonResult tmsPasschange(clsUserInfo user)
+        {
+            var con = this.configuration.GetConnectionString("TMSConn");
+            var result = "";
+            //Random _random = new Random();
+            //int num = _random.Next();
+            using (SqlConnection sqlCon = new SqlConnection(con))
+            {
+                sqlCon.Open();
+                SqlCommand sqlcmd = new SqlCommand("PRC_ChangePass", sqlCon);
+                sqlcmd.CommandType = CommandType.StoredProcedure;
+                sqlcmd.Parameters.AddWithValue("@Email", user.Email);
+                sqlcmd.Parameters.AddWithValue("@Password", user.Password);
+                result = (string)sqlcmd.ExecuteScalar();
+                sqlCon.Close();
+            }
+            HttpContext.Session.Remove("email");
+            HttpContext.Session.Remove("empno");
+            HttpContext.Session.Remove("UserRole");
+            HttpContext.Session.Remove("empname");
+            return new JsonResult(result);
+        }
+
     }
 }

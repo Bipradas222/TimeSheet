@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LxN7OMkvN65GMpywLUM47lMf+XrPWGioIRvrHvzXFuw=",
+  "Hash": "MUNpXhb6mSotB9MpTOg7q7HODNVH4z1QixOyakLPTLg=",
   "Source": "TMS_Application",
   "BasePath": "_content/TMS_Application",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Github\\TimeSheet\\wwwroot\\images\\image-removebg-preview.png",
+      "SourceId": "TMS_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\TimeSheet\\wwwroot\\",
+      "BasePath": "_content/TMS_Application",
+      "RelativePath": "images/image-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image-removebg-preview.png"
     },
     {
       "Identity": "D:\\Github\\TimeSheet\\wwwroot\\js\\site.js",
@@ -1086,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProjectCss\\Style.css"
+    },
+    {
+      "Identity": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\ChangePass.js",
+      "SourceId": "TMS_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\TimeSheet\\wwwroot\\",
+      "BasePath": "_content/TMS_Application",
+      "RelativePath": "ProjectJS/ChangePass.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProjectJS\\ChangePass.js"
     },
     {
       "Identity": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\Login.js",

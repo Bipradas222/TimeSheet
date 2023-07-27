@@ -74,8 +74,15 @@
                                         <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             @Context.Session.GetString("empname")
                                         </button>
-                                        <ul class="dropdown-menu">
-                                            ...
+                                        <ul class="dropdown-menu pb-0">
+                                            <li class="user-header">
+                                                <img src="~/images/image-removebg-preview.png" />
+                                                <p id="" class="text-capitalize">@Context.Session.GetString("empname")</p>
+                                           </li>
+                                           <li class="bg-light px-3 py-2 w-100 d-flex justify-content-between">
+                                                <a href="#" class="btn btn-primary" id="btnChangePass">Change Password</a>
+                                                <a href="#" class="btn btn-danger" id="btnsignout" >Sign out</a>
+                                           </li>
                                         </ul>
                                     </div>
                                 </li>
@@ -83,6 +90,39 @@
                         </div>
                     </div>
                 </nav>
+                @*modal for change password*@
+                <div class="modal fade" id="UserChangePass" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">User creation</h1>
+                                <input type="hidden" id="hdUserId" />
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="txtChangeEmail" placeholder="User Email" readonly value="@Context.Session.GetString("email")">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                    <input type="email" class="form-control" id="txtPassword" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                                    <input type="email" class="form-control" id="txtconfirmPassword" placeholder="Confirm Password">
+                                </div>
+                                @*<div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">User Role</label>
+                                <textarea class="form-control" id="txtRoleDescription" rows="3"></textarea>
+                                </div>*@
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" id="btnCloseModal1">Close</button>
+                                <button type="button" class="btn btn-primary" id="btnSavePass">Change Password</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 @*<div class="page-header pt-3">
                     <h2>Bootstrap 5 Sidebar Menu - Simple</h2>
@@ -132,6 +172,6 @@
         </div>
     </footer>*@
     <input type="hidden" id="hduserEmail" value="@Context.Session.GetString("email")" />
-    
+    <script src="~/ProjectJS/ChangePass.js"></script>
   </body>
 </html>

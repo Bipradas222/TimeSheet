@@ -60,6 +60,15 @@ namespace TMS_Application.Controllers
             }
             
         }
+        [HttpGet]
+        [Route("api/TMS/logout")]
+        public JsonResult tmssignout() {
+            HttpContext.Session.Remove("email");
+            HttpContext.Session.Remove("empno");
+            HttpContext.Session.Remove("UserRole");
+            HttpContext.Session.Remove("empname");
+            return new JsonResult("");
+        }
 
     }
 }

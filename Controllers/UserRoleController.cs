@@ -2,6 +2,7 @@
 using TMS_Application.Models;
 using System.Data;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Http;
 
 namespace TMS_Application.Controllers
 {
@@ -14,7 +15,17 @@ namespace TMS_Application.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            if (   !string.IsNullOrEmpty(HttpContext.Session.GetString("email"))
+                || !string.IsNullOrEmpty(HttpContext.Session.GetString("empno"))
+                || !string.IsNullOrEmpty(HttpContext.Session.GetString("UserRole"))
+                || !string.IsNullOrEmpty(HttpContext.Session.GetString("empname")))
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index", "Login");
+            }
         }
         [HttpPost]
         [Route("api/TMS/AddUserRole")]

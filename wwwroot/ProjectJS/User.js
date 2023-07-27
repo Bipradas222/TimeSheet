@@ -45,6 +45,8 @@
 
     })
     function validation() {
+        const txtPhoneNumber = document.getElementById('txtPhoneNumber').value;
+        const phonenumber = /^\d{10}$/;
         var validation = false;
         if ($("#txtFirstName").val() == "") {
             alert("Please enter first name")
@@ -66,6 +68,7 @@
             alert("Please give Phone number")
             validation = false;
         }
+        
         else if ($("#txtEmail").val() == "") {
             alert("Please give Email")
             validation = false;
@@ -75,15 +78,24 @@
             validation = false;
         }
         else {
-            if ($("#txtEmail").val().indexOf("@") != -1) {
+            if ($("#txtEmail").val().indexOf("@") == -1) {
                 //console.log(str2 + " found"); 
-                validation = true;
-            }
-            else {
                 alert('Email is not valid')
                 validation = false;
             }
-            validation= true;
+            //else {
+            //    alert('Email is not valid')
+            //    validation = true;
+            //}
+            else if (phonenumber.test(txtPhoneNumber) == false) {
+                alert('Invalid Phone Number')
+                validation = false;
+            }
+            else {
+                //alert('Invalid Phone Number')
+                validation = true;
+            }
+            //validation= true;
             //if (($("#txtPhoneNumber").val().length()) == 10) {
             //    alert($("#txtPhoneNumber").val().length())
             //    validation = true;
@@ -179,6 +191,7 @@
             }
         })
     })
+
 })
 
 

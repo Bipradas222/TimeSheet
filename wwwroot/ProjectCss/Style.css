@@ -3,6 +3,11 @@
     font-size: 1.1em;
 }
 
+.dropdown-menu{
+    left: -165px !important;
+    min-width: 18rem;
+}
+
 @media screen and (min-width: 992px) {
     .navbar .navbar-nav .nav-link {
         padding: 0 0.5em;
@@ -12,6 +17,6 @@
         border-right: 3px solid #fff;
     }
 }
-.dropdown-menu {
+/*.dropdown-menu {
     left: -50px !important;
-}
+}*/

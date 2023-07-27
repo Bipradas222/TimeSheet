@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\ProjectCss\\Style.css"
     },
     {
+      "Id": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\ChangePass.js",
+      "PackagePath": "staticwebassets\\ProjectJS\\ChangePass.js"
+    },
+    {
       "Id": "D:\\Github\\TimeSheet\\wwwroot\\ProjectJS\\Login.js",
       "PackagePath": "staticwebassets\\ProjectJS\\Login.js"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "D:\\Github\\TimeSheet\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Github\\TimeSheet\\wwwroot\\images\\image-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\image-removebg-preview.png"
     },
     {
       "Id": "D:\\Github\\TimeSheet\\wwwroot\\js\\site.js",
