@@ -29,6 +29,7 @@
                 UserRole: $("#ddlrole").val(),
                 UserId: $("#hdUserId").val()
             };
+            console.log(param)
             let url = "api/TMS/AddUser";
             //alert($("#txtPhoneNumber").val().length)
             $.ajax({
@@ -73,7 +74,7 @@
             alert("Please give Email")
             validation = false;
         }
-        else if ($("#ddlrole").val() == "") {
+        else if ($("#ddlrole").val() == "0") {
             alert("Insert Role")
             validation = false;
         }
@@ -89,6 +90,11 @@
             //}
             else if (phonenumber.test(txtPhoneNumber) == false) {
                 alert('Invalid Phone Number')
+                validation = false;
+            }
+            else if ($("#txtFirstName").val().includes(" ")) {
+                alert("Space Not Allowed")
+                $("#txtFirstName").focus()
                 validation = false;
             }
             else {
@@ -139,15 +145,15 @@
         }
         //console.log(param)
         $.get('api/TMS/EditUser', param, function (data) {
-            //console.log(data);
+            console.log(data);
             modal_default(data[0].userRole)
             $('#ddlrole option[value="' + data[0].userRole + '"]').prop('selected', true);
             $("#txtFirstName").val(data[0].firstName)
             $("#txtLastName").val(data[0].lastName)
             $("#txtDOB").val(data[0].birth_Date)
             $("#txtAddress").val(data[0].addresh)
-            $("#txtPhoneNumber").val(data[0].email)
-            $("#txtEmail").val(data[0].phone_Number)
+            $("#txtPhoneNumber").val(data[0].phone_Number)
+            $("#txtEmail").val(data[0].email)
             $("#ddlrole").val(data[0].role_name)
         })
         $("#UserModal").modal('show')
@@ -157,7 +163,7 @@
         
         $.get('api/TMS/ddlUserRole', function (data) {
             var object = '';
-            object += '<option >User Role</option>';
+            object += '<option value=0>User Role</option>';
             data.map(function (x) {
                 if (id == 0) {
                     object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
