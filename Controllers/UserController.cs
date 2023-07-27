@@ -105,6 +105,7 @@ namespace TMS_Application.Controllers
                 obj.Birth_Date = (string)row["Date_of_birth"];
                 obj.Phone_Number = (string)row["Phone_Number"];
                 obj.Role_name = (string)row["Role_name"];
+                obj.UserRole = (int)row["RoleID"];
                 list.Add(obj);
             }
             return new JsonResult(list);

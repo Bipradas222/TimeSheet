@@ -117,11 +117,14 @@
     }
     
     function displayuser() {
+        let role = [];
         $("#tbluser").empty();
         $.get('api/TMS/DisplayUser', function (data) {
-            console.log(data)
+            //console.log(data)
             var object = '';
             $.map(data, function (x) {
+                //console.log(x);
+                //role.push(x.userRole);
                 object += '<tr>'
                 object += '<td>' + x.userId + '</td>';
                 object += '<td>' + x.firstName + ' ' + x.lastName + '</td>';
@@ -130,7 +133,7 @@
                 object += '<td>' + x.email + '</td>'
                 object += '<td>' + x.phone_Number + '</td>'
                 //object += '<td>' + x.role_name + '</td>'
-                object += '<td><select class="form-select ddlRoles" aria-label="User Role" id="ddltablerole" data-role=' + x.role_name +'>'
+                object += '<td><select class="form-select ddlRoles roleID' + x.userRole +'" aria-label="User Role" id="ddltablerole">'
                 object +='</select></td>'
                 object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
                 object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDeluser" >Delete</a></td>';
@@ -138,7 +141,7 @@
             })
             //console.log(object)
             $('#tbluser').append(object);
-
+            //console.log(role);
             //table dropdowns
             $.get('api/TMS/ddlUserRole', function (data) {
                 $("#tbluser .ddlRoles").empty()
