@@ -1,7 +1,9 @@
 ﻿$(function () {
     let tblRow=1
     displayuser()
-    $("#txtDOB").datepicker();
+    $("#txtDOB").datepicker({
+        dateFormat: 'dd/mm/yy'
+    });
     /*For Opening Modal*/
     $("#btnAddUser").click(function () {
         $("#UserModal").modal('show')
@@ -33,15 +35,15 @@
             console.log(param)
             let url = "api/TMS/AddUser";
             //alert($("#txtPhoneNumber").val().length)
-            $.ajax({
-                url: url,
-                type: 'Post',
-                data: param,
-                success: function (msg) {
-                    alert("User saved");
-                    window.location.href = 'User'
-                }
-            })
+            //$.ajax({
+            //    url: url,
+            //    type: 'Post',
+            //    data: param,
+            //    success: function (msg) {
+            //        alert("User saved");
+            //        window.location.href = 'User'
+            //    }
+            //})
 
         }
 
@@ -49,7 +51,22 @@
     function validation() {
         const txtPhoneNumber = document.getElementById('txtPhoneNumber').value;
         const phonenumber = /^\d{10}$/;
+        const txtemail = document.getElementById('txtEmail').value;
+        const Email = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+        var today = new Date();
+        var past = $("#txtDOB").val();
+        var arr = past.split("/");
+        var age = today.getFullYear() - parseInt(arr[2]);
+        var CurrentMonth = today.getMonth();
+        var month = parseInt(arr[1]);
+        if (CurrentMonth < month || (CurrentMonth === month && today.getDate() < parseInt(arr[0]))) {
+            age--;
+        }
+
+
         var validation = false;
+        //alert(today.getDate());
+        //alert(age);
         if ($("#txtFirstName").val() == "") {
             alert("Please enter first name")
             validation = false;
@@ -80,15 +97,15 @@
             validation = false;
         }
         else {
-            if ($("#txtEmail").val().indexOf("@") == -1) {
+            if ($("#txtEmail").val().indexOf("@") == -1 || $("#txtEmail").val().indexOf(".") == -1) {
                 //console.log(str2 + " found"); 
                 alert('Email is not valid')
                 validation = false;
             }
-            //else {
-            //    alert('Email is not valid')
-            //    validation = true;
-            //}
+            else if (txtemail.match(Email) == false) {
+                alert('Email is not valid')
+                validation = false
+            }
             else if (phonenumber.test(txtPhoneNumber) == false) {
                 alert('Invalid Phone Number')
                 validation = false;
@@ -97,6 +114,10 @@
                 alert("Space Not Allowed")
                 $("#txtFirstName").focus()
                 validation = false;
+            }
+            else if (age <= 18) {
+                alert('Age is lower than 18')
+                validation = false
             }
             else {
                 //alert('Invalid Phone Number')
