@@ -14,6 +14,13 @@
     /*For Closing Modal*/
     $("#btnCloseModal").click(function () {
         $("#UserModal").modal('hide')
+        $("#txtFirstName").val('')
+        $("#txtLastName").val('')
+        $("#txtDOB").val('')
+        $("#txtAddress").val('')
+        $("#txtPhoneNumber").val('')
+        $("#txtEmail").val('')
+        $("#hdUserId").val('')
     })
 
     /*For save user*/
@@ -34,16 +41,16 @@
             };
             console.log(param)
             let url = "api/TMS/AddUser";
-            //alert($("#txtPhoneNumber").val().length)
-            //$.ajax({
-            //    url: url,
-            //    type: 'Post',
-            //    data: param,
-            //    success: function (msg) {
-            //        alert("User saved");
-            //        window.location.href = 'User'
-            //    }
-            //})
+            alert($("#txtPhoneNumber").val().length)
+            $.ajax({
+                url: url,
+                type: 'Post',
+                data: param,
+                success: function (msg) {
+                    alert("User saved");
+                    window.location.href = 'User'
+                }
+            })
 
         }
 
@@ -52,7 +59,7 @@
         const txtPhoneNumber = document.getElementById('txtPhoneNumber').value;
         const phonenumber = /^\d{10}$/;
         const txtemail = document.getElementById('txtEmail').value;
-        const Email = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+        const Email = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/
         var today = new Date();
         var past = $("#txtDOB").val();
         var arr = past.split("/");
@@ -102,8 +109,8 @@
                 alert('Email is not valid')
                 validation = false;
             }
-            else if (txtemail.match(Email) == false) {
-                alert('Email is not valid')
+            else if (Email.test(txtemail) == false) {
+                alert('Email is not valid1')
                 validation = false
             }
             else if (phonenumber.test(txtPhoneNumber) == false) {
@@ -200,6 +207,7 @@
     })
     function modal_default(id) {
         $("#ddlrole").empty()
+
         
         $.get('api/TMS/ddlUserRole', function (data) {
             var object = '';
