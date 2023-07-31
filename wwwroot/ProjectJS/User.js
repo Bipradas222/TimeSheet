@@ -41,7 +41,7 @@
             };
             console.log(param)
             let url = "api/TMS/AddUser";
-            alert($("#txtPhoneNumber").val().length)
+            //alert($("#txtPhoneNumber").val().length)
             $.ajax({
                 url: url,
                 type: 'Post',
@@ -149,8 +149,8 @@
         $("#tbluser").empty();
         $.get('api/TMS/DisplayUser', function (data) {
             //console.log(data)
-            var object = '';
             $.map(data, function (x) {
+                var object = '';
                 //console.log(x);
                 //role.push(x.userRole);
                 object += '<tr>'
@@ -161,26 +161,45 @@
                 object += '<td>' + x.email + '</td>'
                 object += '<td>' + x.phone_Number + '</td>'
                 //object += '<td>' + x.role_name + '</td>'
-                object += '<td><select class="form-select ddlRoles roleID' + x.userRole +'" aria-label="User Role" id="ddltablerole">'
+                object += '<td><select class="form-select roleID' + x.userRole + '" aria-label="User Role" id="ddltablerole" data-id="' + x.userId + '">'
                 object +='</select></td>'
                 object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
                 object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDeluser" >Delete</a></td>';
-                object += '</tr>'
+                object += '</tr>';
+
+                $('#tbluser').append(object);
+
+                $.get('api/TMS/ddlUserRole', function (data) {
+                    $("#tbluser .roleID" + x.userRole).empty()
+                    /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
+                    var txt = '';
+                    txt += '<option value=0>User Role</option>';
+                    data.map(function (y) {
+                        //console.log(x.userRole)
+                        if (y.roleId == x.userRole) {
+                            txt += '<option value=' + y.roleId + ' selected>' + y.roleName + '</option>';
+                        }
+                        else {
+                            txt += '<option value=' + y.roleId + '>' + y.roleName + '</option>';
+                        }
+                    })
+                    $("#tbluser .roleID" + x.userRole).append(txt)
+                })
             })
             //console.log(object)
-            $('#tbluser').append(object);
+            /*$('#tbluser').append(object);*/
             //console.log(role);
             //table dropdowns
-            $.get('api/TMS/ddlUserRole', function (data) {
-                $("#tbluser .ddlRoles").empty()
-                /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
-                var object = '';
-                object += '<option value=0>User Role</option>';
-                data.map(function (x) {
-                    object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
-                })
-                $("#tbluser .ddlRoles").append(object)
-            })
+            //$.get('api/TMS/ddlUserRole', function (data) {
+            //    $("#tbluser .ddlRoles").empty()
+            //    /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
+            //    var object = '';
+            //    object += '<option value=0>User Role</option>';
+            //    data.map(function (x) {
+            //        object += '<option value=' + x.roleId + '>' + x.roleName + '</option>';
+            //    })
+            //    $("#tbluser .ddlRoles").append(object)
+            //})
         })
     }
     $("#tbluser").on('click', '#btnEdituser', function (data) {
@@ -244,6 +263,42 @@
                 window.location.href = 'User'
             }
         })
+    })
+    $("#tbluser").on('change', '#ddltablerole', function (data) {
+        let userid = parseInt($(this).attr('data-id'));
+        let roleID = parseInt($(this).val());
+        //console.log($(this).attr('data-id'));
+        //$('#hdUserId').val(userid)
+        let param = {
+            'userid': userid
+        }
+        let param1 = {}
+        //console.log(param)
+        $.get('api/TMS/EditUser', param, function (data) {
+            //console.log(data);
+            param1 = {
+                FirstName: data[0].firstName,
+                LastName: data[0].lastName,
+                Addresh: data[0].addresh,
+                Birth_Date: data[0].birth_Date,
+                Phone_Number: data[0].phone_Number,
+                Email: data[0].email,
+                UserId: userid,
+                UserRole: roleID
+            };
+            $.ajax({
+                url: "api/TMS/AddUser",
+                type: 'Post',
+                data: param1,
+                success: function (msg) {
+                    alert("User role updated");
+                    window.location.href = 'User'
+                }
+            })
+            /*modal_default(data[0].userRole)*/
+        })
+        
+        
     })
 
     
