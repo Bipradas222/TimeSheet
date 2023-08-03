@@ -47,8 +47,13 @@
                 type: 'Post',
                 data: param,
                 success: function (msg) {
-                    alert("User saved");
-                    window.location.href = 'User'
+                    if (msg == '') {
+                        alert("User saved");
+                        window.location.href = 'User'
+                    }
+                    else {
+                        alert(msg);
+                    }
                 }
             })
 

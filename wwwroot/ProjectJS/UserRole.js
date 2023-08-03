@@ -28,8 +28,14 @@
                 type: 'Post',
                 data: param,
                 success: function (msg) {
-                    alert("Role saved");
-                    window.location.href = 'UserRole'
+                    if (msg == '') {
+                        alert("Role saved");
+                        window.location.href = 'UserRole'
+                    }
+                    else {
+                        alert(msg)
+                    }
+                    
                 }
             })
         }
