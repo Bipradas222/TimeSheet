@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "TMS | Status";
+}
+
+<div class="container-fluid d-flex align-items-center justify-content-between">
+    <h1>Status Management</h1>
+    <button type="button" class="btn btn-primary btn-sm" id="btnAddStatus">Add New Status</button>
+</div>
+<hr />
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Status_Name</th>
+                <th scope="col">Status_Type</th>
+                <th scope="col">Created_By</th>
+                @*<th scope="col">Created_Date</th>*@
+                
+            </tr>
+        </thead>
+        <tbody id="tblStatus">
+        </tbody>
+    </table>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Status" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Status Creation</h1>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    @*<input type="text" class="form-control form-control-sm" id="txtNo" readonly />*@
+                    <input type="hidden" id="Status_ID" />
+                    <label for="exampleFormControlInput1" class="form-label">Staus Name</label>
+                    <input type="text" class="form-control" id="Status_Name" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Status Type</label>
+                    <input type="text" class="form-control" id="Status_Type" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Created By</label>
+                    <input type="text" class="form-control" id="Created_By" placeholder="">
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnCloseModal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSaveStatus">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*<div class="col-md-6">
+    <label>Priority</label>
+    <select id="ddlPriority" class="form-select form-select-sm"></select>
+</div>*@
+<script src="~/ProjectJS/Status.js"></script>
+

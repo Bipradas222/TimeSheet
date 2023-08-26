@@ -3,6 +3,7 @@
     DisplayRole()
     /*For Openning Modal*/
     $("#btnAddRole").click(function () {
+        $("#Role_Creation").html("Role Creation");
         $("#UserRoleModal").modal('show')
     })
     /*For closing Modal*/
@@ -56,6 +57,7 @@
     }
     function DisplayRole() {
         $('#tbluserRole').empty();
+        $('#tbl_role').DataTable().clear().destroy();
         $.get('api/TMS/DisplayUserRole', function (data) {
             console.log(data)
             var object = '';
@@ -71,11 +73,14 @@
                 object += '</tr>'
             });
             $('#tbluserRole').append(object);
+            $('#tbl_role').DataTable();
         })
     }
     $("#tbluserRole").on('click', '#btnEditRole', function () {
         let roleid =parseInt($(this).attr('data-id'));
         $("#hdRoleId").val(roleid)
+        //$("#Role_Creation").html("");
+        $("#Role_Creation").html("Role Alteration");
         let param = {
             'roleid': roleid
         }
@@ -86,20 +91,30 @@
         $("#UserRoleModal").modal('show')
     })
     $("#tbluserRole").on('click', '#btnDelRole', function () {
-        let roleid = parseInt($(this).attr('data-id'));
-        //alert(roleid);
-        let url = "api/TMS/DelUserRole";
-        let param = {
-            'roleid': roleid
-        }
-        $.ajax({
-            url: url,
-            type: 'Post',
-            data: param,
-            success: function (msg) {
-                alert("Role Deleted");
-                window.location.href = 'UserRole'
+        if (confirm("Are you sure want to delete role") == true) {
+            let roleid = parseInt($(this).attr('data-id'));
+            //alert(roleid);
+            let url = "api/TMS/DelUserRole";
+            let param = {
+                'roleid': roleid
             }
-        })
+            $.ajax({
+                url: url,
+                type: 'Post',
+                data: param,
+                success: function (msg) {
+                    //console.log(msg)
+                    if (msg == '' || msg == null) {
+                        alert("Role Deleted");
+                        window.location.href = 'UserRole'
+                    }
+                    else {
+                        alert(msg);
+                        window.location.href = 'UserRole'
+                    }
+                }
+            })
+        }
+        
     })
 })

@@ -9,7 +9,7 @@
 </div>
 <hr />
 <div class="container">
-    <table class="table">
+    <table class="table" id="tbl_usercreate">
         <thead>
             <tr>
                 <th scope="col">UserID</th>
@@ -31,7 +31,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">User creation</h1>
+                <h1 class="modal-title fs-5" id="tbl_usercreation">User creation</h1>
                 <input type="hidden" id="hdUserId" />
             </div>
             <div class="modal-body">
@@ -42,27 +42,30 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="email" class="form-control" id="txtFirstName" placeholder="First Name">
+                    <input type="text" class="form-control" id="txtFirstName" placeholder="First Name">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="txtLastName" placeholder="Last Name">
+                    <input type="text" class="form-control" id="txtLastName" placeholder="Last Name">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Date Of Birth</label>
-                    <input type="email" class="form-control" id="txtDOB" placeholder="Date Of Birth">
+                    <input type="text" class="form-control" id="txtDOB" placeholder="Date Of Birth">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Address</label>
-                    <input type="email" class="form-control" id="txtAddress" placeholder="Address">
+                    <input type="text" class="form-control" id="txtAddress" placeholder="Address">
+                    <p class="d-none text-danger small ms-2 fw-bold" id="lblAddressWarning"></p>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                    <input type="email" class="form-control" id="txtPhoneNumber" placeholder="Phone Number">
+                    <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Phone Number" maxlength="10">
+                    <p class="d-none text-danger small ms-2 fw-bold" id="lblPhoneWarning"></p>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email</label>
                     <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                    <p class="d-none text-danger small ms-2 fw-bold" id="lblEmailWarning"></p>
                 </div>
                 @*<div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">User Role</label>

@@ -7,6 +7,7 @@
     /*For Opening Modal*/
     $("#btnAddUser").click(function () {
         $("#UserModal").modal('show')
+        $('#tbl_usercreation').html("User Creation")
         $("#ddlrole").empty()
         modal_default(0)
         
@@ -115,7 +116,7 @@
                 validation = false;
             }
             else if (Email.test(txtemail) == false) {
-                alert('Email is not valid1')
+                alert('Email is not valid')
                 validation = false
             }
             else if (phonenumber.test(txtPhoneNumber) == false) {
@@ -152,6 +153,7 @@
     function displayuser() {
         let role = [];
         $("#tbluser").empty();
+        $('#tbl_usercreate').DataTable().clear().destroy();
         $.get('api/TMS/DisplayUser', function (data) {
             //console.log(data)
             $.map(data, function (x) {
@@ -165,32 +167,79 @@
                 object += '<td>' + x.addresh + '</td>'
                 object += '<td>' + x.email + '</td>'
                 object += '<td>' + x.phone_Number + '</td>'
+                object += '<td>' + x.userRole + '</td>'
                 //object += '<td>' + x.role_name + '</td>'
-                object += '<td><select class="form-select roleID' + x.userRole + '" aria-label="User Role" id="ddltablerole" data-id="' + x.userId + '">'
-                object +='</select></td>'
+                //object += '<td><select class="form-select roleID' + x.userRole + '" aria-label="User Role" id="ddltablerole" data-id="' + x.userId + '">'
+                //object +='</select></td>'
                 object += '<td><a id="btnEdituser" href="#" class="btn btn-primary btn-sm" data-id="' + x.userId + '">Edit</a> || ';
                 object += '<a href="#" class="btn btn-danger btn-sm" data-id="' + x.userId + '" id="btnDeluser" >Delete</a></td>';
                 object += '</tr>';
 
                 $('#tbluser').append(object);
 
-                $.get('api/TMS/ddlUserRole', function (data) {
-                    $("#tbluser .roleID" + x.userRole).empty()
-                    /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
-                    var txt = '';
-                    txt += '<option value=0>User Role</option>';
-                    data.map(function (y) {
-                        //console.log(x.userRole)
-                        if (y.roleId == x.userRole) {
-                            txt += '<option value=' + y.roleId + ' selected>' + y.roleName + '</option>';
-                        }
-                        else {
-                            txt += '<option value=' + y.roleId + '>' + y.roleName + '</option>';
-                        }
-                    })
-                    $("#tbluser .roleID" + x.userRole).append(txt)
-                })
+                
             })
+            $('#tbl_usercreate').DataTable({
+                "columns": [
+                    {"width" : "12%"},
+                    {"width" : "13%"},
+                    {"width" : "12.5%"},
+                    { "width": "12.5%"},
+                    { "width": "12.5%" },
+                    { "width": "12.5%" },
+                    {
+                        "width": "12.5%",
+                        "render": function (d, t, r) {
+                            //console.log(d)
+                            //console.log(t)
+                            console.log(r)
+                            var $select = $("<select></select>", {
+                                "id": "ddltablerole",
+                                "data-id": r[0],
+                                "class": "form-select roleID" + d
+                            });
+                            $.get('api/TMS/ddlUserRole', function (data) {
+                                $("#tbluser .roleID" + d).empty();
+                                var txt = '';
+                                txt += '<option value=0>User Role</option>';
+                                data.map(function (y) {
+                                    if (y.roleId == d) {
+                                        txt += '<option value=' + y.roleId + ' selected>' + y.roleName + '</option>';
+                                    }
+                                    else {
+                                        txt += '<option value=' + y.roleId + '>' + y.roleName + '</option>';
+                                    }
+                                })
+                                $("#tbluser .roleID" + d).append(txt);
+                            })
+                            return $select.prop("outerHTML");
+                        }
+                    },
+                    { "width": "12.5%" },
+                    //null,
+                ],
+                //createdRow: function (row, data, dataIndex) {
+                //    //console.log(row)
+                //    //console.log(data[6])
+                //    //console.log(dataIndex)
+                //    $.get('api/TMS/ddlUserRole', function (data) {
+                //        $("#tbluser .roleID" + data[6]).empty()
+                //        /*console.log($("#tbluser .ddlRoles").attr("data-role"))*/
+                //        var txt = '';
+                //        txt += '<option value=0>User Role</option>';
+                //        data.map(function (y) {
+                //            //console.log(x.userRole)
+                //            if (y.roleId == data[6]) {
+                //                txt += '<option value=' + y.roleId + ' selected>' + y.roleName + '</option>';
+                //            }
+                //            else {
+                //                txt += '<option value=' + y.roleId + '>' + y.roleName + '</option>';
+                //            }
+                //        })
+                //        $("#tbluser .roleID" + data[6]).append(txt);
+                //    })
+                //}
+            });
             //console.log(object)
             /*$('#tbluser').append(object);*/
             //console.log(role);
@@ -211,6 +260,7 @@
         let userid = parseInt($(this).attr('data-id'));
         //console.log($(this).attr('data-id'));
         $('#hdUserId').val(userid)
+        $('#tbl_usercreation').html("User alteration");
         let param = {
             'userid' : userid
         }
@@ -253,21 +303,24 @@
         })
     }
     $("#tbluser").on('click', '#btnDeluser', function () {
-        let userid = parseInt($(this).attr('data-id'));
-        //alert(userid);
-        let url = "api/TMS/DelUser";
-        let param = {
-            'UserId': userid
-        }
-        $.ajax({
-            url: url,
-            type: 'Post',
-            data: param,
-            success: function (msg) {
-                alert("User delete");
-                window.location.href = 'User'
+        if (confirm("Are you sure want to delete role") == true) {
+            let userid = parseInt($(this).attr('data-id'));
+            //alert(userid);
+            let url = "api/TMS/DelUser";
+            let param = {
+                'UserId': userid
             }
-        })
+            $.ajax({
+                url: url,
+                type: 'Post',
+                data: param,
+                success: function (msg) {
+                    alert("User delete");
+                    window.location.href = 'User'
+                }
+            })
+        }
+        
     })
     $("#tbluser").on('change', '#ddltablerole', function (data) {
         let userid = parseInt($(this).attr('data-id'));
@@ -277,6 +330,7 @@
         let param = {
             'userid': userid
         }
+        console.log(param);
         let param1 = {}
         //console.log(param)
         $.get('api/TMS/EditUser', param, function (data) {
@@ -305,10 +359,78 @@
         
         
     })
+    $("#txtAddress").focusout(function () {
+        let address = $(this).val();
+        let param = {
+            Phone_Number: '0',
+            Email: '0',
+            Addresh: address == '' ? '0' : address,
+            UserId: $("#hdUserId").val() == '' ? 0 : $("#hdUserId").val()
+        }
+        //console.log(param);
+        $.get("api/TMS/AddUserValidation", param, function (data) {
+            if (data != '') {
+                //alert(data);
+                //$("#txtAddress").focus();
+                $("#lblAddressWarning").removeClass("d-none");
+                $("#lblAddressWarning").html(data);
+                $("#btnSaveUser").attr("disabled", true);
+            }
+            else {
+                $("#btnSaveUser").removeAttr("disabled");
+                $("#lblAddressWarning").addClass("d-none");
+                $("#lblAddressWarning").html("");
+            }
+        })
+
+    })
+    $("#txtPhoneNumber").focusout(function () {
+        let Phone_Number = $(this).val();
+        let param = {
+            Addresh : '0',
+            Email: '0',
+            Phone_Number: Phone_Number == '' ? '0' : Phone_Number,
+            UserId: $("#hdUserId").val() == '' ? 0 : $("#hdUserId").val()
+        }
+        $.get("api/TMS/AddUserValidation", param, function (data) {
+            if (data != '') {
+                //alert(data);
+                //$("#txtPhoneNumber").focus();
+                $("#lblPhoneWarning").removeClass("d-none");
+                $("#lblPhoneWarning").html(data);
+                $("#btnSaveUser").attr("disabled", true);
+            }
+            else {
+                $("#btnSaveUser").removeAttr("disabled");
+                $("#lblPhoneWarning").addClass("d-none");
+                $("#lblPhoneWarning").html("");
+            }
+        })
+    })
+    $("#txtEmail").focusout(function () {
+        let Email = $(this).val();
+        let param = {
+            Addresh: '0',
+            Email: Email == '' ? '0' : Email,
+            Phone_Number: '0',
+            UserId: $("#hdUserId").val() == '' ? 0 : $("#hdUserId").val()
+        }
+        $.get("api/TMS/AddUserValidation", param, function (data) {
+            if (data != '') {
+                //alert(data);
+                //$("#txtEmail").focus();
+                $("#lblEmailWarning").removeClass("d-none");
+                $("#lblEmailWarning").html(data);
+                $("#btnSaveUser").attr("disabled", true);
+            }
+            else {
+                $("#btnSaveUser").removeAttr("disabled");
+                $("#lblEmailWarning").addClass("d-none");
+                $("#lblEmailWarning").html("");
+            }
+        })
+    })
 
     
 
 })
-
-
-

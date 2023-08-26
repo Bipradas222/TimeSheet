@@ -31,6 +31,8 @@
             </div>
             <div class="modal-body">
                 <div class="mb-3">
+                    @*<input type="text" class="form-control form-control-sm" id="txtNo" readonly />*@
+                    <input type="hidden" id="Project_ID" />
                     <label for="exampleFormControlInput1" class="form-label">Project Name</label>
                     <input type="text" class="form-control" id="Project_Name" placeholder="Name">
                 </div>
@@ -40,7 +42,8 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Project Status</label>
-                    <input type="text" class="form-control" id="Status" placeholder="Status">
+                    @*<input type="text" class="form-control" id="Status" placeholder="Status">*@
+                    <select id="ddlStatus" class="form-select"></select>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Start_Date</label>

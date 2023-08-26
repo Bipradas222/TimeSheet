@@ -153,6 +153,7 @@ namespace TMS_Application.Controllers
                 obj.Description = (string)row["Description"];
                 list.Add(obj);
             }
+            sqlConn.Close();
             //{
             //    SqlDataAdapter sqlDa = new SqlDataAdapter("usp_ViewCourse", sqlCon);
             //    sqlDa.Fill(dataTable);
@@ -259,6 +260,25 @@ namespace TMS_Application.Controllers
             HttpContext.Session.Remove("empname");
             return new JsonResult(result);
         }
-
+        [HttpGet]
+        [Route("api/TMS/AddUserValidation")]
+        public JsonResult tmsadduservalidation(clsUserInfo user)
+        {
+            var con = this.configuration.GetConnectionString("TMSConn");
+            var result = "";
+            using (SqlConnection sqlcon = new SqlConnection(con))
+            {
+                sqlcon.Open();
+                SqlCommand sqlcmd = new SqlCommand("PRC_AddUser_Validation", sqlcon);
+                sqlcmd.CommandType= CommandType.StoredProcedure;
+                sqlcmd.Parameters.AddWithValue("@Address", user.Addresh);
+                sqlcmd.Parameters.AddWithValue("@PhoneNumber", user.Phone_Number);
+                sqlcmd.Parameters.AddWithValue("@Email", user.Email);
+                sqlcmd.Parameters.AddWithValue("@UserID", user.UserId);
+                result = (string)sqlcmd.ExecuteScalar();
+                sqlcon.Close();
+            }
+            return new JsonResult(result);
+        }
     }
 }
